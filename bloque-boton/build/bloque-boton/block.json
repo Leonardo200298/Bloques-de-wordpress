@@ -1,0 +1,13 @@
+{
+  "apiVersion": 3,
+  "name": "mi-bloque/boton",
+  "title": "Botón Personalizado",
+  "category": "design",
+  "icon": "button",
+  "attributes": {
+    "label": { "type": "string", "default": "Mi botón" },
+    "color": { "type": "string", "default": "#0073aa" },
+    "size": { "type": "number", "default": 16 }
+  },
+  "editorScript": "file:./index.js"   
+}
