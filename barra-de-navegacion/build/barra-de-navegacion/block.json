@@ -1,0 +1,88 @@
+{
+  "apiVersion": 3,
+  "name": "mi-bloque/barra-de-navegacion",
+  "title": "Barra de Navegación Personalizable",
+  "category": "design",
+  "icon": "menu",
+  "attributes": {
+    "backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": "#0073aa"
+    },
+    "spacing": {
+      "type": "number",
+      "default": 20
+    },
+    "logoUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "logoSize": {
+      "type": "number",
+      "default": 40
+    },
+    "socials": {
+      "type": "array",
+      "default": [
+        {
+          "name": "Facebook",
+          "url": "#",
+          "img": ""
+        },
+        {
+          "name": "Instagram",
+          "url": "#",
+          "img": ""
+        },
+        {
+          "name": "LinkedIn",
+          "url": "#",
+          "img": ""
+        }
+      ]
+    },
+    "menuItems": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Inicio",
+          "href": "#inicio"
+        },
+        {
+          "text": "¿Quiénes somos?",
+          "href": "#quienes-somos"
+        },
+        {
+          "text": "¿Qué hacemos?",
+          "href": "#que-hacemos"
+        },
+        {
+          "text": "Servicios",
+          "href": "#servicios"
+        },
+        {
+          "text": "Cursos",
+          "href": "#cursos"
+        },
+        {
+          "text": "Equipo",
+          "href": "#equipo"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        }
+      ]
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
