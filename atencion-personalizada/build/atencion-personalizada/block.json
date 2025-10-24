@@ -1,0 +1,52 @@
+{
+  "apiVersion": 3,
+  "name": "mi-bloque/seccion-destacada",
+  "title": "Sección Destacada",
+  "category": "design",
+  "icon": "feedback",
+  "description": "Bloque con tres pestañas interactivas con imagen y color personalizable.",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "activeTab": {
+      "type": "string",
+      "default": "atencion"
+    },
+    "accentColor": {
+      "type": "string",
+      "default": "#b5486e"
+    },
+    "imageAtencion": {
+      "type": "string",
+      "default": ""
+    },
+    "imageCalidad": {
+      "type": "string",
+      "default": ""
+    },
+    "imageExperiencia": {
+      "type": "string",
+      "default": ""
+    },
+    "contentAtencion": {
+      "type": "string",
+      "default": ""
+    },
+    "contentCalidad": {
+      "type": "string",
+      "default": ""
+    },
+    "contentExperiencia": {
+      "type": "string",
+      "default": ""
+    },
+    "listAtencion": {
+      "type": "string",
+      "default": ""
+    },
+    "extraExperiencia": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
